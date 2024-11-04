@@ -1,21 +1,21 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
+            "imgPath": "img/places/",
+            "imgLocation": "Cairo, Egypt",
+            "description": "",
+            "date": ""
         },
         {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
+            "imgPath": "img/places/",
+            "imgLocation": "Rio de Janeiro, Brazil",
+            "description": "",
+            "date": ""
         },
         {
             "imgPath": "img/places/france.jpg",
             "imgLocation": "Paris",
-            "description": "Eiffel Tower",
+            "description": "New Orleans, Louisiana, United States",
             "date": "01/03/2016"
         },
         {
