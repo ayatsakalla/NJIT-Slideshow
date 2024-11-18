@@ -1,9 +1,8 @@
 body {
     overflow-x: hidden;
     font-family: 'Century Gothic', sans-serif;
-    background-image: url('../img/geometry.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    
+    background-color: #ffc0cb;
 }
 
 /* Main container for the slideshow and metadata */
@@ -12,7 +11,7 @@ body {
     max-width: 500px; /* Increased max-width for larger display */
     width: 90%; /* Keeps width responsive */
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #ff91a4;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
 }
@@ -37,6 +36,7 @@ body {
     font-size: 2rem; /* Increased font size for better readability */
     font-weight: bold;
     color: #333;
+    letter-spacing: 2px;
     /* Optional: Customize the text color */
 }
 
@@ -59,12 +59,12 @@ body {
 
 /* Metadata container styling */
 .details {
-    border: 1px dashed #000;
+    border: 1px dashed #ff91a4;
     padding: 15px;
     background-color: #f8f9fa; /* Light background to distinguish from main area */
     border-radius: 4px;
     color: #333;
-    font-size: 1rem; /* Slightly larger text for readability */
+    font-size: 2rem; /* Slightly larger text for readability */
 }
 
 /* Style for each paragraph in details */
@@ -91,4 +91,22 @@ Make it animate nicely. You'll need CSS3 for this */
 .rot270 {
     /* Add 270-degree rotation */
     transform: rotate(270deg);
+}
+
+@font-face {
+    font-family: 'super';
+    src: url('SuperShape-PV9qE.ttf');
+}
+
+.super {
+    font-family: 'super';
+}
+
+@font-face {
+    font-family: 'gold';
+    src: url('Quebecks-rgX4L.ttf');
+}
+
+.gold {
+    font-family: 'gold';
 }
